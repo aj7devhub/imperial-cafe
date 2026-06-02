@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Lugrasimo&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Parisienne&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --font-montserrat: "Montserrat", sans-serif;
+  --font-playfair: "Playfair Display", serif;
+  --font-italiana: "Italiana", serif;
+  --font-lugrasimo: "Lugrasimo", cursive;
+  --font-parisienne: "Parisienne", cursive;
+}
+
+.font-montserrat { font-family: var(--font-montserrat); }
+.font-playfair   { font-family: var(--font-playfair); }
+.font-italiana   { font-family: var(--font-italiana); }
+.font-lugrasimo  { font-family: var(--font-lugrasimo); }
+.font-parisienne { font-family: var(--font-parisienne); }
